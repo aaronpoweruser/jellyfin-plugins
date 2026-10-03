@@ -106,7 +106,7 @@ public class ImageTypeConfig
 
     public static BadgePanelSettings CreateDefaultRuntimePanel(int sizePercent) => new()
     {
-        Enabled = false, Order = 5, Position = BadgePosition.BottomLeft,
+        Enabled = false, Order = 5, Position = BadgePosition.BottomRight,
         Layout = BadgeLayout.Vertical, SizePercent = sizePercent, MarginPercent = 2.5f, GapPercent = 10f,
         Style = BadgeStyle.Text,
         EnabledBadges = new List<string> { "runtime" }
